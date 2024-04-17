@@ -231,7 +231,7 @@ header {
 
 .hebergements-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
 
@@ -379,6 +379,34 @@ header {
 .activites-cards .activites-card-rating {
     margin-bottom: 5px;
 }
+
+/*/////******************************//*//*/
+/*/////*********** Footer ***********//*//*/
+/*/////******************************//*//*/
+
+footer {
+    margin-top: 40px;
+    background-color: var(--main-bg-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.ftr ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ftr li {
+    margin-bottom: 10px;
+}
+
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
